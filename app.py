@@ -136,7 +136,7 @@ st.markdown("""
 # ── Header ─────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="ace-header">
-<div class="ace-logo">♠ ACE - TAB</div>
+<div class="ace-logo">♠ACE</div>
     <div class="ace-subtitle">Accumulation Computation Engine</div>
      <div class="ace-subtitle">Tight Consolidation Breakout</div>
     <div class="ace-subtitle">TSX · D1 Timeframe</div>
