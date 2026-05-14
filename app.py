@@ -198,8 +198,22 @@ def fetch_holy_grail(symbol):
         ma200 = float(hist["Close"].iloc[-201:-1].mean())  # 200 day MA (excluding today)
 
         # THREE FINGERS TIGHT — MA20 within 3% of MA200
+        # Check that the narrow state has been present for at least 10 days
         ma_diff_pct = abs(ma20 - ma200) / ma200 * 100
         if ma_diff_pct > 3.0:
+            return None
+
+        # Verify narrow state persisted for 10 days (not just today)
+        narrow_days = 0
+        for i in range(2, 12):  # check last 10 days
+            try:
+                ma20_i  = float(hist["Close"].iloc[-(20+i):-(i)].mean())
+                ma200_i = float(hist["Close"].iloc[-(200+i):-(i)].mean())
+                diff_i  = abs(ma20_i - ma200_i) / ma200_i * 100
+                if diff_i <= 3.0:
+                    narrow_days += 1
+            except: pass
+        if narrow_days < 5:  # at least 5 of last 10 days must be tight
             return None
 
         # Volume checks
