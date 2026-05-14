@@ -143,7 +143,14 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── The Rule ───────────────────────────────────────────────────────────────────
-
+st.markdown("""
+<div class="rule-box">
+    <span class="rule-highlight">THE HOLY GRAIL RULE:</span>
+    When MA20 ≈ MA200 (within 3%) — the three fingers are tight — energy is compressed like a spring.
+    When an Elephant Bar fires from that tight state → <span class="rule-highlight">THAT IS YOUR TRADE.</span><br>
+    🐘 <span class="rule-highlight">BULL:</span> Green EB breaks ABOVE the tight range · Closes near HIGH · Volume 3x+<br>
+    🐻 <span class="rule-highlight">BEAR:</span> Red EB breaks BELOW the tight range · Closes near LOW · Volume 3x+
+</div>
 """, unsafe_allow_html=True)
 
 # ── Scanner Functions ──────────────────────────────────────────────────────────
