@@ -146,7 +146,7 @@ st.markdown("""
 st.markdown("""
 <div class="rule-box">
   <div class="ace-subtitle">Tight Consolidation Breakout</div>
-    <span class="rule-highlight">THE HOLY GRAIL RULE:</span>
+    <span class="rule-highlight">Tight Consolidation Breakou:</span>
     When MA20 ≈ MA200 (within 3%) — the three fingers are tight — energy is compressed like a spring.
     When an Elephant Bar fires from that tight state → <span class="rule-highlight">THAT IS YOUR TRADE.</span><br>
     🐘 <span class="rule-highlight">BULL:</span> Green EB breaks ABOVE the tight range · Closes near HIGH · Volume 3x+<br>
