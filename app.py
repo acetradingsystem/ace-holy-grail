@@ -145,7 +145,7 @@ st.markdown("""
 # Combine into one call to ensure the DOM updates correctly
 st.markdown("""
     <div class="rule-box" style="text-align: center;">
-        <span class="rule-highlight">TIGHT CONSOLIDATION BREAKOUT SCANNER</span><br>
+        <span class="rule-highlight">TIGHT CONSOLIDATION BREAKOUT SCANNER - TSX DAILY TIMEFRAM</span><br>
         <span class="rule-highlight">TSX DAILY TIMEFRAME.</span>
     </div>
 """, unsafe_allow_html=True)
