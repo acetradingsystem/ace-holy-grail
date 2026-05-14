@@ -138,8 +138,7 @@ st.markdown("""
 <div class="ace-header">
 <div class="ace-logo">♠ACE</div>
     <div class="ace-subtitle">Accumulation Computation Engine</div>
-     <div class="ace-subtitle">Tight Consolidation Breakout</div>
-    <div class="ace-subtitle">TSX · D1 Timeframe</div>
+   
 """, unsafe_allow_html=True)
 
 # ── The Rule ───────────────────────────────────────────────────────────────────
