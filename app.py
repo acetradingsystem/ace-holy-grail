@@ -145,12 +145,9 @@ st.markdown("""
 # ── The Rule ───────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="rule-box">
-  <div class="ace-subtitle">Tight Consolidation Breakout</div>
-    <span class="rule-highlight">TIGHT CONSOLIDATION BREAKOUT:</span>
+  <span class="rule-highlight">TIGHT CONSOLIDATION BREAKOUT:</span>
      <span class="rule-highlight">D1 TIMEFRAME.</span><br>
-    🐘 <span class="rule-highlight">BULL:</span> Green EB breaks ABOVE the tight range · Closes near HIGH · Volume 3x+<br>
-    🐻 <span class="rule-highlight">BEAR:</span> Red EB breaks BELOW the tight range · Closes near LOW · Volume 3x+
-</div>
+   
 """, unsafe_allow_html=True)
 
 # ── Scanner Functions ──────────────────────────────────────────────────────────
