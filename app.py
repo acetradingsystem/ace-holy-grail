@@ -425,7 +425,7 @@ def display_results(results):
 # ── Main ───────────────────────────────────────────────────────────────────────
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    run = st.button("▶  RUN TSX SCAN", type="primary", use_container_width=True)
+    run = st.button("▶  RUN D1 TSX SCAN", type="primary", use_container_width=True)
 
 if run:
     with st.spinner(""):
@@ -439,9 +439,9 @@ if "hg_results" in st.session_state:
 else:
     st.markdown("""
     <div class="no-results">
-        CLICK RUN HOLY GRAIL SCAN TO START<br><br>
+        CLICK RUN TSX SCAN TO START<br><br>
         Scans 640+ TSX stocks<br>
-        Detects when MA20 ≈ MA200 (Three Fingers Tight)<br>
+        Detects when MA20 ≈ MA200 (Are realtively close together)<br>
         🐘 Bull Elephant — breaks UP from tight MAs<br>
         🐻 Bear Elephant — breaks DOWN from tight MAs<br><br>
         Best run after 4:00pm EST on trading days
