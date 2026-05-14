@@ -442,9 +442,7 @@ else:
         CLICK RUN TSX SCAN TO START<br><br>
         Scans 640+ TSX stocks<br>
         Detects when MA20 ≈ MA200 (Are realtively close together)<br>
-        🐘 Bull Elephant — breaks UP from tight MAs<br>
-        🐻 Bear Elephant — breaks DOWN from tight MAs<br><br>
-        Best run after 4:00pm EST on trading days
+       Best run after 4:00pm EST on trading days
     </div>""", unsafe_allow_html=True)
 
 # ── Footer ─────────────────────────────────────────────────────────────────────
