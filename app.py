@@ -136,19 +136,22 @@ st.markdown("""
 # ── Header ─────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="ace-header">
-<div class="ace-logo">♠ACE</div>
-    <div class="ace-subtitle">Accumulation Computation Engine</div>
-   
+    <div class="ace-logo">♠ HOLY GRAIL</div>
+    <div class="ace-subtitle">ACE Accumulation Computation Engine</div>
+    <div class="ace-tagline">Three Fingers Tight · Bull 🐘 & Bear 🐻 Elephant Bar Detection · TSX</div>
+</div>
 """, unsafe_allow_html=True)
 
 # ── The Rule ───────────────────────────────────────────────────────────────────
 st.markdown("""
-<div class="rule-box" style="text-align: center;">
-  <span class="rule-highlight">TIGHT CONSOLIDATION BREAKOUT</span><br>
-  <span class="rule-highlight">D1 TIMEFRAME.</span>
+<div class="rule-box">
+    <span class="rule-highlight">THE HOLY GRAIL RULE:</span>
+    When MA20 ≈ MA200 (within 3%) — the three fingers are tight — energy is compressed like a spring.
+    When an Elephant Bar fires from that tight state → <span class="rule-highlight">THAT IS YOUR TRADE.</span><br>
+    🐘 <span class="rule-highlight">BULL:</span> Green EB breaks ABOVE the tight range · Closes near HIGH · Volume 3x+<br>
+    🐻 <span class="rule-highlight">BEAR:</span> Red EB breaks BELOW the tight range · Closes near LOW · Volume 3x+
 </div>
 """, unsafe_allow_html=True)
-
 
 # ── Scanner Functions ──────────────────────────────────────────────────────────
 def get_tsx_symbols():
@@ -426,7 +429,7 @@ def display_results(results):
 # ── Main ───────────────────────────────────────────────────────────────────────
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    run = st.button("▶  RUN D1 TSX SCAN", type="primary", use_container_width=True)
+    run = st.button("▶  RUN HOLY GRAIL SCAN", type="primary", use_container_width=True)
 
 if run:
     with st.spinner(""):
@@ -440,10 +443,12 @@ if "hg_results" in st.session_state:
 else:
     st.markdown("""
     <div class="no-results">
-        CLICK RUN TSX SCAN TO START<br><br>
+        CLICK RUN HOLY GRAIL SCAN TO START<br><br>
         Scans 640+ TSX stocks<br>
-        Detects when MA20 ≈ MA200 (Are realtively close together)<br>
-       Best run after 4:00pm EST on trading days
+        Detects when MA20 ≈ MA200 (Three Fingers Tight)<br>
+        🐘 Bull Elephant — breaks UP from tight MAs<br>
+        🐻 Bear Elephant — breaks DOWN from tight MAs<br><br>
+        Best run after 4:00pm EST on trading days
     </div>""", unsafe_allow_html=True)
 
 # ── Footer ─────────────────────────────────────────────────────────────────────
