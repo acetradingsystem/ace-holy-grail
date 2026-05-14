@@ -144,8 +144,8 @@ st.markdown("""
 # ── The Rule ───────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="rule-box" style="text-align: center;">
-  <span class="rule-highlight">TIGHT CONSOLIDATION BREAKOUT:</span><br>
-  <span class="rule-highlight">TSX D1 TIMEFRAME.</span>
+  <span class="rule-highlight">TIGHT CONSOLIDATION BREAKOUT</span><br>
+  <span class="rule-highlight">TSX DAILY TIMEFRAME.</span>
 </div>
 """, unsafe_allow_html=True)
 
@@ -426,7 +426,7 @@ def display_results(results):
 # ── Main ───────────────────────────────────────────────────────────────────────
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    run = st.button("▶  RUN HOLY GRAIL SCAN", type="primary", use_container_width=True)
+    run = st.button("▶  RUN D1 TSX SCAN", type="primary", use_container_width=True)
 
 if run:
     with st.spinner(""):
@@ -440,7 +440,7 @@ if "hg_results" in st.session_state:
 else:
     st.markdown("""
     <div class="no-results">
-        CLICK RUN HOLY GRAIL SCAN TO START<br><br>
+        CLICK RUN SCAN TO START<br><br>
         Scans 640+ TSX stocks<br>
         Detects when MA20 ≈ MA200 (Three Fingers Tight)<br>
         🐘 Bull Elephant — breaks UP from tight MAs<br>
