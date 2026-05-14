@@ -144,7 +144,7 @@ st.markdown("""
 # ── The Rule ───────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="rule-box" style="text-align: center;">
-  <span class="rule-highlight">TIGHT CONSOLIDATION BREAKOUT SCANER</span><br>
+  <span class="rule-highlight">TIGHT CONSOLIDATION BREAKOUT SCANNER</span><br>
   <span class="rule-highlight">TSX DAILY TIMEFRAME.</span>
 </div>
 """, unsafe_allow_html=True)
