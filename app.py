@@ -136,10 +136,9 @@ st.markdown("""
 # ── Header ─────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="ace-header">
-    <div class="ace-logo">♠ HOLY GRAIL</div>
-    <div class="ace-subtitle">ACE Accumulation Computation Engine</div>
-    <div class="ace-tagline">Three Fingers Tight · Bull 🐘 & Bear 🐻 Elephant Bar Detection · TSX</div>
-</div>
+<div class="ace-logo">♠ ACE 1 TAB</div>
+    <div class="ace-subtitle">Tight Consolidation Breakout</div>
+    <div class="ace-tagline">TSX · D1 Timeframe</div>
 """, unsafe_allow_html=True)
 
 # ── The Rule ───────────────────────────────────────────────────────────────────
