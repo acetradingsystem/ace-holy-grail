@@ -429,7 +429,7 @@ def display_results(results):
 # ── Main ───────────────────────────────────────────────────────────────────────
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    run = st.button("▶  RUN HOLY GRAIL SCAN", type="primary", use_container_width=True)
+    run = st.button("▶  RUN TSX SCAN", type="primary", use_container_width=True)
 
 if run:
     with st.spinner(""):
